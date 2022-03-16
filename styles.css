@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  
+  position: relative
+}
+header{
+  margin:3rem auto;
+  text-align: center;
+}
+header p{
+  margin: 0 15rem;
+}
+
+.parent-container{
+  margin: 4rem auto;
+  display: flex; 
+  max-width: 85vw;
+  min-height: 60vh;
+  position: relative;
+  top: 30%; right: 33%;
+  transform: translate(50%,-50%);
+}
+.parent-container h4{
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.parent-container p{
+  padding-top: 10px;
+}
+.karma, .team, .calc, .supervisor{
+  background-color: white;
+  margin: 20px 15px;
+   padding: 15px 25px;
+  border-top: green solid 4px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+ 
+  
+}
+.team{
+  display: relative;
+  top: 25px;
+  border-top: orange solid 4px;
+}
+.karma{
+  border-top: orange solid 4px;
+  margin-top: 30px;
+}
+.supervisor{
+  align-self: center;
+  width: 25%;
+  
+}
+.calc{
+  align-self: center;
+  width: 25%;
+  
+}
+.calcIcon{
+  color: black;
+  width: 3rem;
+  height: 2rem;
+}
+.mid{
+  position: relative;
+  top: 1.5em;
+  width: 30%;
+}
+i{
+  padding-top: 5rem;
+  padding-left: 85%;
+}
+
+@media only screen and (max-width: 1000px) {
+header p{
+  margin: 0 10rem;
+}
+
+}
